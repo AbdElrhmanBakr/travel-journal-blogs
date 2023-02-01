@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Nav Bar */
+.nav--bar{
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.nav--logo{
+    width: 40px;
+}
+/* Main Content */
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+section{
+    margin: 15px 40px;
+}
+.horz--line{
+    margin: 0px 20px;
+}
+.section--container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.section--img{
+    width: 125px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.text--container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.loc--container{
+    display: flex;
+    align-items: center;
+    margin: 5px 0 0 0;
+    gap: 8px;
+}
+
+.loc--img{
+   width: 18px;
+}
+
+.loc--country{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.loc--link{
+    color: #918E9B;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+}
+.card--head,.card--date,.card--text{
+    margin: 0;
+}
+
+.card--head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+.card--date{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+.card--text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    max-width: 600px;
+}
+/*Footer*/
